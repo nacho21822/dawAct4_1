@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
-  console.log("JavaScript cargado correctamente ");
-  alert("¡Bienvenido a mi sitio en web GitHub Pages!");
+const button = document.getElementById("alertButton");
+button.addEventListener("click", () => {
+  alert("¡Has hecho clic en el botón!");
 });
